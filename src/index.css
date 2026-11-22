@@ -15,7 +15,7 @@ body {
 
 .bg-grain {
   background-color: #1d2671;
-  background-image: url('./assets/site/fundo-azul.jpg');
+  background-image: url('./assets/site/fundo-azul.webp');
   background-size: cover;
   background-position: center;
 }
