@@ -2,20 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   margin: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  background: #ffffff;
+  color: #0f1740;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
-@media (min-width: 2150px) { 
-  html {
-    font-size: 28px;
-  }
-}
-
-@media (min-width: 3150px) { 
-  html {
-    font-size: 32px;
-  }
+.bg-grain {
+  background-color: #1d2671;
+  background-image: url('./assets/site/fundo-azul.jpg');
+  background-size: cover;
+  background-position: center;
 }

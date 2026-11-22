@@ -1,26 +1,27 @@
-import './App.css';
-import Hero from '../components/Hero';
-import Contact from '../components/Contact';
-import Services from '../components/Services';
-import WhatsappFixed from '../components/utils/WhatsappFixed';
-import Benefits from '../components/Benefits';
-import Segments from '../components/Segments';
 import React from 'react';
+import Hero from '../components/Hero';
+import Services from '../components/Services';
+import HvacHighlight from '../components/HvacHighlight';
+import Differentials from '../components/Differentials';
 import About from '../components/About';
+import Partners from '../components/Partners';
 import Footer from '../components/Footer';
+import WhatsappFixed from '../components/utils/WhatsappFixed';
 
 function App() {
   return (
-    <div className="App scroll-smooth">
+    <>
       <Hero />
-      <Contact />
-      <Services />
-      <WhatsappFixed />
-      <Benefits />
-      <Segments />
-      <About />
+      <main>
+        <Services />
+        <HvacHighlight />
+        <Differentials />
+        <About />
+        <Partners />
+      </main>
       <Footer />
-    </div>
+      <WhatsappFixed />
+    </>
   );
 }
 
